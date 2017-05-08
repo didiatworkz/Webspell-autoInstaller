@@ -52,12 +52,15 @@ $mysql[] = "INSERT INTO `".PREFIX."table` (`row1`, `row2`, `ro3`, `row4`) VALUES
 ## Screenshots
 
 Opening
+
 ![autoInstaller Opening](http://www.atworkz.de/_git/installer/opening.jpg)
----------------------------------------
+
 Step 1
+
 ![autoInstaller Step 1](http://www.atworkz.de/_git/installer/step1.jpg)
----------------------------------------
+
 Step 2
+
 ![autoInstaller Step 2](http://www.atworkz.de/_git/installer/step2.jpg)
 
 
