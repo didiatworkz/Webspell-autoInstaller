@@ -18,13 +18,13 @@ Supports all webspell.org versions
 
 ## Usage
 
-##### Check the files if exist
-If you want to check they exsist admincenter.php
+##### Checks whether the files exist 
+If they want to check whether admincenter. php it exists 
 ```php
 $find_file[] = 'admin/admincenter.php';
 ```
 
-The script looking for the absolute path in webspell.
+The script needs the absolute path from the webspell list.
 
 ##### Manipulate files
 You can use the auto installer to insert simple code into files to certain positions.
