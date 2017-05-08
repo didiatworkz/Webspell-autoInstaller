@@ -8,7 +8,9 @@ Version 1.2
 
 ## What is this?
 **Overwriting files never again by mistake!**
+
 The autoInstaller is a script for addon / mod creator who want to have your scripts installed easily.
+
 You can use the autoInstaller to check files for their existence, manipulate files or insert sql commands.
 
 
