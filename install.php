@@ -26,11 +26,11 @@ include("_functions.php");
 
 ## Installer Options:
 # ------------------------------------------------------------------------
-define('INSTALLER_NAME', 				'Addon Name'		);
+define('INSTALLER_NAME', 				'Addon Name'				);
 define('INSTALLER_VERSION', 			'1.0'						);
 define('INSTALLER_CONTACT_MAIL', 		'mail@provider.de'			);
-define('INSTALLER_COPYRIGHT_TEXT', 		'Company-Name'					);
-define('INSTALLER_COPYRIGHT_LINK', 		'http://www.company-name.de'		);
+define('INSTALLER_COPYRIGHT_TEXT', 		'Company-Name'				);
+define('INSTALLER_COPYRIGHT_LINK', 		'http://www.company.de'		);
 define('INSTALLER_COPYRIGHT_YEAR', 		'2017'						);
 
 ## Find Installation Files:
