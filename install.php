@@ -363,8 +363,16 @@ elseif(isset($_GET['step']) ? $_GET['step'] : null) {
 		if($_GET['set']==90) {
 			$sql_max = count($mysql);
 			for($m=0; $m < $sql_max; $m++){
-			$eintrag = $mysql[$m];
-			mysql_query($eintrag);
+				$eintrag = $mysql[$m];
+				if(is_resource($g_link) && get_resource_type($g_link)=='mysql link'){
+				   mysql_query($eintrag);
+				}
+				else {
+					if(is_object($g_link) && get_class($g_link)=='mysqli'){
+						mysqli_query($eintrag);
+					}
+
+				}
 			}
 				$set = $set+10;
 				$set = 'install.php?finish=1';
